@@ -1186,3 +1186,1528 @@ Transfer learning improves both initial performance (compared to random weight i
 - Source: entries/2026/06/21/wiki-Transfer_learning.md
 - Source URL: https://en.wikipedia.org/wiki/Transfer_learning
 
+
+---
+
+**Generated:** 2026-11-11
+**Source:** 38 entries from /home/forge/workspace/entries/
+**Model:** openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] soft-attention-dynamic-hard-attention-fixed
+Hard attention weights are learned during backpropagation and fixed at inference, while soft attention weights are computed dynamically during the forward pass and change with every input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] alignment-matrix-off-diagonal-reordering
+In attention alignment, off-diagonal dominance in the alignment matrix indicates non-trivial source-to-target reordering, such as 'I love you' to 'je t'aime'.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] context-vector-weighted-linear-combination-encoder-hidden-states
+The attention context vector is computed as c = H * w, a weighted linear combination of encoder hidden states where w is the attention weight vector.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] qkv-learned-projections-role-definitions
+QKV attention uses three learned projections of input embeddings: queries ask what to look for, keys answer what is contained, and values carry the information.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] self-attention-intra-sequence-vs-cross-attention-decoder-query
+Self-attention captures global intra-sequence dependencies by having each element attend to all others in the same sequence, whereas cross-attention uses queries from the decoder and keys/values from the encoder.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-head-attention-parallel-learned-projections
+Multi-head attention runs multiple parallel attention functions with different learned projections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] attention-rollout-recursive-dot-product-layers
+Attention rollout combines attention maps across all layers by recursively taking their dot product to produce a single visualization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-attention-networks-extend-attention-to-graphs
+Graph Attention Networks (GAT, 2018) extend attention mechanisms to graph-structured data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Attention_machine_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Attention_(machine_learning)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoder-one-layer-mlp-encoder-formula
+A one-layer MLP autoencoder encoder computes E_phi(x) = sigma(Wx + b), where sigma is an activation function, W is a weight matrix, and b is a bias vector.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoder-l2-reconstruction-loss-formula
+The L2 reconstruction loss for an autoencoder is L(theta, phi) = (1/N) * sum_i ||x_i - D_theta(E_phi(x_i))||^2.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sparse-autoencoder-lambda-sparsity-strength
+Sparse autoencoder training minimizes L(theta, phi) + lambda * L_sparse(theta, phi), where lambda controls sparsity strength.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sparse-autoencoder-kl-divergence-sparsity-loss-formula
+The KL divergence sparsity loss used in sparse autoencoders is s(rho, rho_hat) = rho log(rho/rho_hat) + (1-rho) log((1-rho)/(1-rho_hat)).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sparse-autoencoder-neuroscience-sparse-coding-hypothesis
+Sparse autoencoders are motivated by the sparse coding hypothesis in neuroscience that only a small subset of neurons fire for any given input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoder-training-empirical-distribution-reference
+Autoencoder training typically uses the empirical distribution of the training dataset as the reference distribution while minimizing reconstruction loss.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoder-latent-code-z-notation
+In an autoencoder, the intermediate code z = E_phi(x) is called the latent variable, latent vector, or code.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autoencoder.md
+- Source URL: https://en.wikipedia.org/wiki/Autoencoder
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vehicular-automation-assists-or-replaces-operators
+Vehicular automation is technology that assists or replaces human vehicle operators, spanning semi-autonomous assisted modes and autonomous modes that require no human operator.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sae-level1-steering-or-speed-level2-both
+SAE Level 1 driver assistance controls either steering or speed, while SAE Level 2 partial automation controls both steering and speed with the driver monitoring.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sensor-fusion-improves-accuracy-reliability
+Sensor fusion in autonomous driving combines multiple sensor types to improve accuracy and reliability across conditions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autonomous-navigation-sparse-maps-vs-hd-maps
+Autonomous navigation approaches include using sparse maps combined with real-time perception, or highly detailed HD maps that reduce real-time decision-making.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rtk-ppp-sub-meter-positioning
+RTK and PPP GNSS enhancement techniques provide sub-meter positioning accuracy, which is critical for autonomous navigation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tam-factors-autonomous-vehicle-adoption
+Technology Acceptance Model factors for autonomous vehicle adoption are usefulness, ease of use, trust, and social influence, all positively correlated with adoption intent.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vienna-convention-automated-driving-system-definition
+The proposed Vienna Convention amendment defines an automated driving system as hardware and software exercising sustained dynamic control, where dynamic control covers real-time operational and tactical functions for lateral and longitudinal motion, road monitoring, event response, and maneuver planning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vienna-convention-amendment-entered-force-july-2022
+The Vienna Convention amendment defining automated driving systems entered into force in July 2022.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Autonomous_driving.md
+- Source URL: https://en.wikipedia.org/wiki/Autonomous_driving
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-norm-normalization-step-epsilon-formula
+Batch normalization normalizes each input as x_hat = (x - mu_B) / sqrt(sigma_B^2 + epsilon), where mu_B and sigma_B^2 are the mini-batch mean and variance and epsilon is a small constant for numerical stability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-norm-backprop-gamma-beta-input-gradients
+Batch normalization backpropagation computes dL/dgamma = sum_i (dL/dy_i) * x_hat_i and dL/dbeta = sum_i (dL/dy_i), while gradients with respect to the input include terms from the normalized output, the variance, and the mean.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-norm-gradient-explosion-mitigated-by-skip-connections
+In very deep networks, batch normalization can initially cause gradient explosion, which skip connections such as those in ResNets mitigate.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] layer-instance-group-norm-avoid-batch-size-dependence
+Layer Normalization, Instance Normalization, and Group Normalization are alternatives to batch normalization that avoid batch-size dependence, which is important for small-batch or sequence-model settings.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-norm-placement-before-after-activation
+The batch normalization transform can be applied before or after the activation function, and its placement affects training dynamics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-norm-per-dimension-across-minibatch
+Batch normalization normalizes per dimension across the mini-batch, not across dimensions within a single sample.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Batch_normalization.md
+- Source URL: https://en.wikipedia.org/wiki/Batch_normalization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-gaussian-kernel-formula-2k1-window
+For a (2k+1) by (2k+1) Gaussian window, the Canny smoothing kernel is H[i,j] = (1 / (2*pi*sigma^2)) * exp(-((i-(k+1))^2 + (j-(k+1))^2) / (2*sigma^2)).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-5x5-gaussian-kernel-sigma2-159
+For a 5x5 Gaussian kernel with sigma=2, Canny smoothing uses the normalized matrix (1/159) * [[2,4,5,4,2],[4,9,12,9,4],[5,12,15,12,5],[4,9,12,9,4],[2,4,5,4,2]].
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-gradient-magnitude-atan2-direction
+Canny gradient computation uses magnitude G = sqrt(Gx^2 + Gy^2) and direction Theta = atan2(Gy, Gx).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] opencv-canny-low-high-threshold-call
+In OpenCV Python, Canny edge detection is invoked as cv2.Canny(image, low_threshold, high_threshold).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-otsu-automatic-high-threshold-half-low
+Otsu's method can automatically select Canny's high threshold from the non-maximum-suppressed gradient magnitude image, with the low threshold set to the high threshold divided by 2.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scale-space-differential-edge-detection-subpixel-lindeberg-1998
+Differential edge detection formulated in scale space by Lindeberg (1998) provides sub-pixel accuracy using second- and third-order derivatives.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-morphological-thinning-mallat-zhong
+Mathematical morphology post-processing by Mallat and Zhong can further thin Canny edges to enforce the single-response criterion.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] curvelets-alternative-gaussian-multiscale-noise-reduction
+Curvelets are an alternative to Gaussian filtering for edge detection that decompose signals into multi-scale components, so dropping fine scales reduces noise while preserving edge structure.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Canny_edge_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Canny_edge_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-extracts-high-level-understanding-from-images-and-video
+Computer vision is the interdisciplinary field concerned with enabling computers to extract high-level understanding from digital images and video.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-input-modalities-include-video-multicamera-lidar-medical-imaging
+Computer vision input modalities include video sequences, multi-camera views, 3D scanner data, LiDAR point clouds, and medical imaging devices.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-subdisciplines-include-scene-reconstruction-object-detection-and-tracking
+Computer vision subdisciplines include scene reconstruction, object detection, event detection, activity recognition, video tracking, object recognition, 3D pose estimation, motion estimation, visual servoing, 3D scene modeling, and image restoration.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-surpassed-prior-methods-on-classification-segmentation-optical-flow
+CNNs and deep learning have surpassed prior methods on benchmarks for classification, segmentation, and optical flow.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] augmented-reality-combines-computer-graphics-and-computer-vision
+Augmented reality combines computer graphics and computer vision, including tracking surfaces and planes in 3D.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-is-feedforward-neural-network-learning-spatial-features-via-kernel-optimization
+Convolutional neural networks are a class of feedforward neural networks that learn spatial features through filter/kernel optimization rather than full connectivity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-input-tensor-shape-batch-height-width-channels
+CNN input tensors have shape (batch) x (height) x (width) x (channels), and a convolution outputs a feature map with shape (batch) x (map height) x (map width) x (map channels).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-biological-inspiration-simple-complex-cells-hubel-wiesel
+CNN architecture mirrors the visual cortex: simple cells respond to edges in small receptive fields, while complex cells have larger fields insensitive to exact edge position (Hubel & Wiesel, 1950s-60s).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-pooling-takes-maximum-average-pooling-takes-mean
+Max pooling selects the maximum value in a region, while average pooling computes the mean; both are common pooling layer types.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] effective-receptive-field-grows-with-network-depth
+The effective receptive field in a CNN grows with network depth as convolutions compound.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backpropagation-primary-cnn-training-since-lecun-1989
+Backpropagation has been the primary training method for CNNs since LeCun et al. (1989).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] data-augmentation-artificially-expands-training-datasets-via-modified-copies
+Data augmentation artificially expands training datasets by creating modified copies of existing data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Data_augmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Data_augmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] geometric-augmentation-includes-rotation-reflection-translation-scaling-shear-cropping
+Geometric data augmentation transformations include rotation, reflection, translation, scaling, shear, cropping, elastic distortion, and intra-class morphing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Data_augmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Data_augmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] color-space-augmentation-includes-brightness-contrast-saturation-color-jittering
+Color space data augmentation includes brightness, contrast, and saturation adjustment, as well as color jittering.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Data_augmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Data_augmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gaussian-noise-simulates-sensor-noise-salt-pepper-simulates-dead-pixels
+In data augmentation, Gaussian noise simulates sensor noise and salt-and-pepper noise simulates dead pixels or sensor dust.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Data_augmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Data_augmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-style-transfer-can-synthesize-augmented-training-samples
+Generative augmentation using GANs (including DCGANs and conditional Wasserstein GANs) and style transfer can synthesize realistic training samples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Data_augmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Data_augmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] motion-parallax-provides-absolute-depth-if-observer-motion-known
+Motion parallax — the relative apparent motion of objects at different distances during observer movement — provides absolute depth if observer velocity and direction are known.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Depth_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Depth_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] depth-from-optical-expansion-enables-time-to-contact-estimation
+Depth from optical expansion occurs when approaching objects produce expanding retinal projections, enabling time-to-contact estimation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Depth_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Depth_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-perspective-parallel-lines-converge-at-vanishing-points
+Linear perspective is a monocular depth cue in which parallel lines converge at vanishing points, enabling relative depth reconstruction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Depth_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Depth_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] familiar-size-known-object-size-plus-visual-angle-yields-absolute-depth
+Familiar size combines known object size with visual angle to yield absolute depth.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Depth_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Depth_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] defocus-blur-depth-cue-used-by-jumping-spiders
+Defocus blur — out-of-focus regions signaling depth difference from the focal plane — is used as a primary depth cue by some spiders such as jumping spiders.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Depth_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Depth_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diffusion-model-two-phase-forward-noise-reverse-denoise
+Diffusion models are latent variable generative models with a forward process that gradually adds Gaussian noise to data and a learned reverse process that iteratively denoises random noise back into samples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Diffusion_model.md
+- Source URL: https://en.wikipedia.org/wiki/Diffusion_model
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diffusion-forward-noise-schedule-beta-in-zero-one
+The forward diffusion process uses a fixed noise schedule β₁,...,βT ∈ (0,1) and produces increasingly noisy versions x₁,...,xT until xT approximates N(0,I).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Diffusion_model.md
+- Source URL: https://en.wikipedia.org/wiki/Diffusion_model
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diffusion-reverse-process-learned-gaussian-mean-covariance
+The reverse diffusion process parameterizes p_θ(x_{t-1}|x_t) as a Gaussian with learned mean μ_θ and covariance Σ_θ.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Diffusion_model.md
+- Source URL: https://en.wikipedia.org/wiki/Diffusion_model
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diffusion-backbone-typically-unet-or-transformer
+The denoising network in diffusion models is typically a U-Net or Transformer backbone.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Diffusion_model.md
+- Source URL: https://en.wikipedia.org/wiki/Diffusion_model
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diffusion-score-based-formulation-learns-score-function
+In the score-based formulation of diffusion models, the model learns the score function ∇_x log p(x), the gradient of the log probability density.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Diffusion_model.md
+- Source URL: https://en.wikipedia.org/wiki/Diffusion_model
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edge-defined-by-brightness-discontinuity
+An edge is a curve in a digital image where image brightness changes sharply or has a discontinuity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] viewpoint-independent-edges-reflect-3d-properties
+Viewpoint-independent edges reflect inherent 3D object properties such as surface markings and surface shape and do not change with viewpoint.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] viewpoint-dependent-edges-occlusion-boundaries
+Viewpoint-dependent edges change as viewpoint changes and reflect scene geometry such as occlusion boundaries.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edge-vs-line-ridge-detector
+An edge is a boundary between two regions, whereas a line is a thin feature with an edge on each side and is detected by ridge detectors rather than edge detectors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edge-thinning-8-connectivity-multipass
+Edge thinning reduces thick edges to one-pixel-wide elements using connectivity analysis typically with 8-connectivity and multi-pass directional removal.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] marr-hildreth-false-edges-gradient-minima
+The Marr-Hildreth algorithm produces false edges at local gradient minima and has poor localization at curved edges.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kovalevsky-color-channel-differences
+The Kovalevsky method uses color channel differences rather than brightness and can detect edges between pixels of equal brightness but different colors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canny-deriche-recursive-filters
+The Canny-Deriche detector is derived from criteria similar to Canny but uses recursive filters instead of Gaussian or exponential filters.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Edge_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Edge_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ebgm-gabor-filters-structural-grid-zn-face
+Elastic Bunch Graph Matching (EBGM) uses Gabor filters to record facial features and computes a structural grid linking them, and was commercialized as ZN-Face.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] face-hallucination-super-resolution-cctv
+Face hallucination is a super-resolution technique that enhances low-resolution CCTV faces using example-based machine learning and can remove disguises such as sunglasses before recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] thermal-face-recognition-infrared-lighting-independent
+Thermal face recognition uses infrared cameras to capture face shape independent of lighting conditions and accessories.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cross-spectrum-synthesis-thermal-visible-30-percent
+Cross-spectrum synthesis developed by ARL in 2018 bridges thermal-to-visible face matching with approximately 30% improvement over baselines using combined global and local facial features.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] geometric-vs-photometric-face-recognition
+Geometric facial recognition analyzes spatial relationships between landmarks, while photometric facial recognition uses statistical methods to distill images into values compared against templates.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] holistic-vs-feature-based-face-models
+Holistic face models recognize the face as a whole, while feature-based models decompose the face into components such as eyes, nose, and mouth and analyze each plus spatial relationships.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] clearview-ai-government-agencies-only
+Clearview AI is a commercial facial recognition platform whose database is restricted to government agencies for law enforcement and national security.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] faceit-visionics-minnesota-mugshot-1999
+FaceIT by Visionics was deployed in Minnesota's mugshot booking system in 1999.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Facial_recognition_system.md
+- Source URL: https://en.wikipedia.org/wiki/Facial_recognition_system
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-definition-task-dependent
+A feature in computer vision is a piece of information about image content such as a point, edge, or region deemed interesting for a given task, and there is no universal definition independent of application.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-detection-low-level-first-step
+Feature detection is a low-level image processing operation that examines every pixel to determine if a feature is present and is typically the first step in a computer vision pipeline.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-extraction-binary-or-continuous-feature-images
+Feature extraction applies local neighborhood operations to produce either binary decisions of feature presence or continuous-valued feature images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-vector-and-feature-space-definition
+A feature vector aggregates multiple feature descriptors at each image point into a single vector, and the set of all possible feature vectors forms the feature space.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-descriptor-instance-sift-hog
+A feature descriptor is a specific instance of a feature representation, such as a SIFT descriptor or HOG descriptor.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-matching-establishes-correspondences
+Feature matching establishes correspondences between features detected in different images of the same scene.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edges-are-locally-one-dimensional-structures
+Edges are image boundaries with locally one-dimensional structure identified by strong gradient magnitude.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] blobs-complement-corners-detect-smooth-regions
+Blob detectors are complementary to corner detectors and can detect regions that are too smooth for corner detectors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_detection_computer_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-generator-maps-latent-to-data-deconvolutional
+In image generation, a GAN generator is typically a deconvolutional neural network that maps samples from a latent space such as Gaussian or uniform noise to the data space.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-discriminator-cnn-real-fake-output-0-1
+In image generation, a GAN discriminator is typically a convolutional neural network that classifies inputs as real or fake and outputs a value in [0, 1].
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-indirect-training-fool-discriminator
+A GAN generator is trained indirectly to fool the discriminator rather than to minimize distance to specific training images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-generator-distribution-pushforward-measure
+The GAN generator distribution is implemented as a pushforward measure by sampling z from a simple distribution and applying the learned function G(z).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-objective-function-formula
+The GAN objective is L(G, D) = E_{x ~ μ_ref}[ln D(x)] + E_{z ~ μ_Z}[ln(1 - D(G(z)))].
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-training-alternating-independent-backprop
+GAN training applies independent backpropagation alternately to the generator and discriminator networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-reparameterization-trick-kingma-welling
+The reparameterization trick decomposes the generator distribution into a simple prior composed with a learned mapping and was independently developed alongside VAEs by Kingma and Welling.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-no-function-type-restriction-vs-boltzmann
+Boltzmann machines restrict the function types used by the network, whereas GANs have no such restriction on function type.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-corner-definition-two-dominant-edge-directions
+A Harris corner is a point whose local neighborhood has two dominant different edge directions, equivalently a junction of two edges where image brightness changes sharply.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-ssd-taylor-expansion-quadratic-form
+The Harris detector uses sum of squared differences to quantify intensity change under window shifts and approximates it via first-order Taylor expansion into a quadratic form involving the structure tensor.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-alternative-response-det-over-tr
+An alternative Harris corner response approximates the smaller structure-tensor eigenvalue as det(M) / tr(M).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-better-repeatability-than-klt-stereo-retrieval
+The Harris detector has better repeatability under illumination and rotation changes than KLT and is more commonly used in stereo matching and image retrieval.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-affine-region-detector-affine-invariant
+The Harris affine region detector extends Harris corner detection for affine-invariant detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] opencv-cornerharris-parameters-block-2-ksize-3-k-0-04
+OpenCV's cv2.cornerHarris example uses blockSize=2, ksize=3 for the Sobel kernel, and k=0.04.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harris-applications-span-stitching-stereo-3d-reconstruction
+Harris corner detection is applied downstream in image stitching, stereo vision, 3D reconstruction, motion detection, object recognition, video tracking, and content-based image retrieval.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Harris_corner_detector.md
+- Source URL: https://en.wikipedia.org/wiki/Harris_corner_detector
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-patented-paul-hough-1962
+The Hough transform was patented by Paul Hough in 1962.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-duda-hart-1972-rho-theta
+Duda and Hart modernized the Hough transform in 1972 with the rho-theta parameterization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-gradient-direction-reduces-theta-range
+Using the edge gradient direction in the Hough transform, as by O'Gorman and Clowes, constrains theta to roughly a 45-degree arc instead of the full 180-degree range, reducing computation and spurious votes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kernel-based-hough-transform-real-time-clustered-voting
+Kernel-based Hough Transform (KHT) votes on clusters of approximately collinear pixels using oriented elliptical-Gaussian kernels and can achieve real-time performance on large images such as 1280x960.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] three-d-kht-plane-detection-point-clouds-nlogn
+3DKHT extends KHT to unorganized point clouds for plane detection with O(n log n) cost using trivariate Gaussian kernels in a spherical theta-phi-rho accumulator.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-probabilistic-interpretation-naive-bayes-mle
+The Hough transform can be interpreted as approximate naive Bayes inference with a uniform prior over shape space, independent pixel evidence whose log-likelihoods add, and peak detection as maximum likelihood estimation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-cylinder-detection-two-step-orientation-position-radius
+Cylinder detection in point clouds with the Hough transform is a two-step process: first find cylinder orientation, then find position and radius.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hough-edge-detection-prerequisite
+Edge detection such as Canny or Sobel is typically a prerequisite for the Hough transform because it provides the edge map that feeds the voting procedure.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Hough_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Hough_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-transforms-images-to-world-descriptions
+Computer vision transforms visual images into world descriptions that can elicit appropriate action, i.e., disentangling symbolic information from image data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-processing-image-to-image-vs-cv-3d-semantic
+Image processing transforms images to images in 2D, whereas computer vision extracts 3D understanding and semantic interpretation from images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] machine-vision-controlled-industrial-context
+Machine vision is a systems engineering discipline that applies computer vision in industrial or factory automation contexts with controlled conditions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-graphics-inverse-of-computer-vision
+Computer graphics is the inverse of computer vision: graphics produces images from 3D models, while computer vision produces 3D models from images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mit-1966-summer-project-describe-what-it-saw
+In 1966, an MIT summer project attempted to have a computer describe what it saw and dramatically underestimated the problem's difficulty.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neocognitron-1970s-modeled-primary-visual-cortex
+The Neocognitron, developed by Fukushima in the 1970s, modeled the primary visual cortex and is the earliest example of a computer vision architecture directly inspired by the visual cortex.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vision-transformer-98-4-strawberry-disease-detection
+Vision Transformers (ViT) achieved high accuracy, with an example of 98.4% on strawberry disease detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mediapipe-google-ai-edge-framework
+MediaPipe is Google's open-source framework for AI edge computing, used for face detection, image classification, and object detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_classification.md
+- Source URL: https://en.wikipedia.org/wiki/Image_classification
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lowpass-pyramid-smooth-subsample-factor-two
+A lowpass image pyramid is built by smoothing with a filter and then subsampling, typically by factor 2 in each dimension, producing progressively lower-resolution and more-smoothed levels.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] oversampled-hybrid-pyramid-omits-subsampling
+An oversampled or hybrid image pyramid is generated by omitting the subsampling step at certain stages to create intermediate scale levels.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pyramid-trades-spatial-resolution-for-smoothing
+Image pyramids trade off spatial sampling density or resolution for increased smoothing at each level.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] laplacian-detail-manipulation-halo-artifacts
+Detail manipulation using Laplacian pyramids can produce halo artifacts.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bilateral-filter-alternative-to-laplacian-detail-manipulation
+The bilateral filter was developed as an alternative to Laplacian pyramid detail manipulation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mipmaps-graphics-analog-image-pyramids
+Mipmaps are the computer graphics analog of image pyramids for texture level-of-detail.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adam7-png-interlacing-pyramid-progressive-rendering
+Adam7 interlacing in PNG functions as a kind of pyramid for progressive rendering.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_pyramid.md
+- Source URL: https://en.wikipedia.org/wiki/Image_pyramid
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-registration-transforms-datasets-into-single-coordinate-system
+Image registration transforms different sets of data into a single coordinate system so they can be compared or integrated.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] registration-target-fixed-and-moving-source-images
+In image registration, the target or fixed or sensed image remains stationary while the moving or source images are transformed to align with it.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] affine-transformations-global-cannot-model-local-differences
+Affine transformations are global transforms including rotation, scaling, translation, and shearing and cannot model local geometric differences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nonrigid-registration-radial-basis-viscous-fluid-diffeomorphisms
+Nonrigid or elastic registration locally warps the target image and includes radial basis functions such as thin-plate splines and multiquadrics, viscous fluid models, and diffeomorphisms.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] parametric-fixed-vs-nonparametric-arbitrary-displacement
+Parametric registration models describe the transformation with a fixed number of parameters dictated by the model, while non-parametric models allow arbitrary per-element displacement.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] phase-correlation-single-peak-translation
+In phase correlation, a single peak in the output indicates relative translation between images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] elastix-toolbox-rigid-nonrigid-registration
+elastix is a toolbox for rigid and nonrigid image registration.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ransac-robust-transformation-control-points
+RANSAC is an iterative algorithm used for robust estimation of transformation parameters when control points exceed the minimum required.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_registration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_registration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-restoration-theory-inverse-problems-psf-regularization
+Image restoration theory provides the mathematical foundation of inverse problems, PSF estimation, and regularization for applied image restoration subfields.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_restoration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_restoration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ai-restoration-replaces-handcrafted-priors-with-learned-ones
+AI-based image restoration builds on classical restoration theory but replaces hand-crafted priors with learned ones using deep learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_restoration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_restoration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] physical-photograph-conservation-chemical-environmental-archival
+Physical conservation and restoration of photographs involves chemical treatments, environmental controls, and archival science.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_restoration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_restoration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] iterative-reconstruction-overlaps-medical-and-computational-photography
+Iterative reconstruction overlaps with medical imaging such as CT, MRI, and PET and with computational photography.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_restoration.md
+- Source URL: https://en.wikipedia.org/wiki/Image_restoration
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-segmentation-partitions-pixels-by-common-characteristics
+Image segmentation partitions a digital image into segments (sets of pixels) and assigns labels so that pixels sharing a label have common characteristics such as color, intensity, or texture.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kmeans-iterative-centroid-reassignment
+K-means segmentation iteratively assigns each pixel to the nearest cluster center and recomputes cluster centers by averaging assigned pixels until no pixel changes cluster.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] thresholding-converts-grayscale-to-binary
+Thresholding segmentation converts a grayscale image to binary by classifying pixels relative to a threshold T; methods include maximum entropy, balanced histogram thresholding, Otsu's method, and k-means clustering.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] region-growing-seeded-assigns-by-intensity-difference
+Seeded region growing provides seed pixels marking each object, compares unallocated neighboring pixels to the region mean, assigns the pixel with the smallest intensity difference, and repeats until all pixels are assigned.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistical-region-merging-graph-edge-merging
+Statistical Region Merging (SRM) builds a 4-connected pixel graph with edges weighted by absolute intensity difference, sorts edges in a priority queue, and merges regions using a statistical predicate.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edge-detection-produces-disconnected-edges
+Edge detection produces disconnected edges that often require closure before they can serve as segmentation boundaries.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] spatial-taxons-hierarchical-figure-ground-levels
+Spatial-taxons extend figure-ground segmentation to hierarchical levels including foreground, object groups, objects, and salient parts.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Image_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Image_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] medical-image-computing-core-method-groups
+Medical image computing's core methods are grouped into segmentation, registration, image-based physiological modeling, visualization, and statistical analysis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] medical-image-nonstandard-geometries
+Medical images can have non-standard geometries: curved-array ultrasound produces fan-like images, gantry tilt produces sheared images, and biomechanical analysis uses unstructured meshes such as hexahedral or tetrahedral meshes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] registration-aligns-source-to-target-via-similarity-metric
+Image registration finds spatial alignment between two images by treating one as the target and transforming the other (source) to match it through iterative optimization of a similarity metric.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] atlases-statistical-population-models
+Atlases in medical image computing are statistical models of image populations learned from training data, ranging from single templates such as the MNI brain template to multi-template approaches that handle anatomical variability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] atlas-based-segmentation-transfers-labels-via-registration
+Atlas-based segmentation transfers manual labels from training images to new images via registration and can be parametric (single atlas) or nonparametric (all training images used separately).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] shape-based-segmentation-deforms-template
+Shape-based segmentation deforms parametric template shapes to fit new images using techniques such as Active Shape Models (ASM) and Active Appearance Models (AAM).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-segmentation-methods-include-unet-segnet-transformers
+CNN-based medical image segmentation methods include SegNet, U-Net, ResNet, AATSN, Transformers, and GANs, providing automated segmentation with superior performance and speed compared to manual methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] voxel-based-morphometry-detects-deformation-abnormalities
+Voxel-based morphometry (VBM) detects anatomical deformation abnormalities, such as hippocampal shrinkage in Alzheimer's disease.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Medical_image_computing.md
+- Source URL: https://en.wikipedia.org/wiki/Medical_image_computing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nerf-introduced-2020-mildenhall
+NeRF was introduced in 2020 by Mildenhall et al. at ECCV 2020 as a neural network-based technique for reconstructing 3D scene representations from collections of 2D photographs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nerf-requires-known-camera-poses
+NeRF training requires standard 2D images with known camera poses, which can be obtained via structure from motion (e.g., COLMAP), SLAM, GPS, or IMU; no specialized cameras are needed.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nerf-differentiable-rendering-pipeline
+A NeRF's differentiable rendering pipeline marches camera rays through the scene, samples points, queries the MLP, and uses classical volume rendering to produce pixel colors, enabling end-to-end gradient descent against ground-truth images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] barf-jointly-optimizes-poses-and-radiance-field
+BARF (Bundle-Adjusting NeRF, 2021) jointly optimizes camera poses and the radiance field using a dynamic low-pass filter in a coarse-to-fine manner.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mip-nerf-conical-frustums-anti-aliasing
+mip-NeRF (2021) performs multi-scale anti-aliasing by casting conical frustums instead of single rays and fitting Gaussians to frustum sections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nerf-w-three-mlps-static-appearance-transient
+NeRF-W (NeRF in the Wild, 2021) uses three separate MLPs for static scene, appearance embedding (lighting), and transient embedding (moving objects), enabling training on uncontrolled photo collections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] snerg-sparse-voxel-grid-lightweight-mlp
+SNeRG (2021) uses a sparse voxel grid with a lightweight MLP for view-dependent residuals and outperforms PlenOctrees.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nerf-typical-pipeline-sfm-train-query
+A typical NeRF pipeline captures images from multiple viewpoints, runs structure from motion (e.g., COLMAP) to extract camera intrinsics/extrinsics, trains the NeRF model on images plus poses, and queries the trained model for novel view synthesis or geometry extraction (e.g., marching cubes for mesh).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_radiance_field.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_radiance_field
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] true-positive-iou-threshold-correct-class
+A true positive detection is a predicted bounding box with IoU above a threshold (commonly 0.5) and the correct class label.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] false-positive-iou-below-threshold-or-duplicate
+A false positive detection is a prediction with IoU below the threshold, or a duplicate prediction for an already-matched ground truth object.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] false-negative-unmatched-ground-truth
+A false negative detection is a ground-truth object with no matching prediction above the IoU threshold.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] object-detection-domain-gap-unsupervised-adaptation
+Object detection performance degrades when test images come from a different distribution than training data (domain gap), addressed via unsupervised domain adaptation techniques such as CycleGAN for image-to-image translation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] opencv-dnn-yolov3-coco-80-classes
+The OpenCV DNN module can load a YOLOv3 model trained on COCO to detect 80 common object classes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multiple-predictions-only-highest-iou-true-positive
+When multiple predictions exist for a single ground truth, only the highest-IoU prediction (if above threshold) counts as a true positive; all others are false positives.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] classical-object-detectors-require-explicit-feature-engineering
+Classical non-neural object detection methods such as Viola-Jones (Haar), SIFT, and HOG+SVM require explicit feature engineering, whereas neural methods learn features end-to-end.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-based-object-classification
+Feature-based object classification detects objects by identifying class-specific visual features such as shape, texture, color, and spatial relationships.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Object_detection.md
+- Source URL: https://en.wikipedia.org/wiki/Object_detection
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] optical-flow-definition-apparent-motion
+Optical flow is the pattern of apparent motion of objects, surfaces, and edges in a visual scene caused by relative motion between an observer and the scene, or equivalently the distribution of apparent velocities of brightness patterns in an image.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] brightness-constancy-constraint-equation
+The brightness constancy constraint assumes a point's brightness remains constant between frames: I(x,y,t) - I(x+u, y+v, t+1) = 0, where (u,v) is the displacement vector.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] coarse-to-fine-optical-flow-warping
+Coarse-to-fine optical flow addresses the small-displacement limitation by downsampling, solving at a coarse scale, then refining at progressively finer scales using image warping.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] focus-of-expansion-indicates-direction-of-travel
+The focus of expansion is the point in the visual field from which optic flow vectors radiate outward during forward motion, indicating the direction of travel.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] optical-flow-cost-volumes-4d-matching-costs
+Cost volumes in learning-based optical flow are 4D tensors representing matching costs between all pixel pairs in two feature maps.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] horn-schunck-euler-lagrange-gauss-seidel
+The Horn-Schunck energy functional E = ∫∫ (Ix·u + Iy·v + It)² + α(|∇u|² + |∇v|²) dx dy is solved via Euler-Lagrange equations discretized and iterated with Gauss-Seidel.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lucas-kanade-local-window-loss
+The Lucas-Kanade method minimizes the sum of absolute brightness differences over a local rectangular region R: Σ |I(x+u, y+v, t+1) - I(x,y,t)|.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] optical-flow-benchmarks-sintel-kitti-spring
+Learning-based optical flow models are evaluated on MPI Sintel, KITTI, and Spring benchmarks, while supervised training often relies on synthetic datasets FlyingChairs and FlyingThings3D.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Optical_flow.md
+- Source URL: https://en.wikipedia.org/wiki/Optical_flow
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] point-cloud-definition-xyz-optional-attributes
+A point cloud is a discrete set of 3D data points where each point has mandatory Cartesian X, Y, Z coordinates and may carry optional attributes such as RGB color, surface normals, timestamps, and intensity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] point-set-registration-aligns-multiple-scans
+Point set registration aligns multiple point clouds or a point cloud to a 3D model and is essential for combining partial scans into a complete scene.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mpeg-pcc-began-2017-three-categories
+MPEG Point Cloud Compression standardization began in 2017 with three categories: static point clouds, dynamic point clouds, and LiDAR sequences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pcl-bsd-cpp-library
+Point Cloud Library (PCL) is a BSD-licensed C++ library for n-D point cloud and 3D geometry processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] meshlab-open-source-mesh-conversion
+MeshLab is an open-source tool for point cloud management and conversion to triangle meshes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cloudcompare-open-source-processing
+CloudCompare is an open-source tool for viewing, editing, and processing high-density 3D point clouds.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Point_cloud.md
+- Source URL: https://en.wikipedia.org/wiki/Point_cloud
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pose-estimation-predicts-rotation-translation
+3D pose estimation predicts an object's rotation and translation from a reference pose given an image or 3D scan.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pose-estimation-methods-class-specific
+Pose estimation methods are typically class-specific and do not generalize across object types.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cad-model-registration-optimizes-projected-distance
+CAD model registration aligns a 3D CAD model over a photograph by optimizing a distance measure between the projected model and the image using perspective or orthogonal projection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] calibrated-camera-pose-reconstructs-projection-rays
+In calibrated-camera pose estimation, projection rays are reconstructed from 2D image points and 3D points are found along these rays using ICP-based correspondence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] foundationpose-deep-model-based-model-free
+NVIDIA FoundationPose is a deep learning foundation model for 6DoF pose estimation and tracking that supports both model-based and model-free setups.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] posest-gpl-cpp-6dof-3d2d
+posest is a GPL C/C++ library for 6DoF pose estimation from 3D-2D correspondences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Pose_estimation.md
+- Source URL: https://en.wikipedia.org/wiki/Pose_estimation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] teacher-forcing-feeds-ground-truth
+Teacher forcing trains an RNN by feeding the ground-truth previous output as the next input rather than the model's own prediction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bptt-and-truncated-bptt
+Backpropagation Through Time (BPTT) applies backpropagation to the unrolled RNN, and truncated BPTT limits the number of time steps to reduce computational cost.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnn-shared-parameters-across-time
+RNNs share parameters across all time steps (weight tying), unlike unrolled feedforward networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stacked-rnn-layer-output-feeds-next-layer
+In a stacked (deep) RNN, multiple RNN layers are stacked vertically so layer k's output sequence becomes layer k+1's input sequence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pixelrnn-2d-image-order
+PixelRNN extends RNNs to 2D data such as images by processing pixels in a defined order, for example row-by-row or diagonal.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hopfield-symmetric-weights-convergence
+Hopfield networks are fully recurrent networks with symmetric weights that guarantee convergence but do not process sequences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] resnet-won-ilsvrc-2015-he-et-al
+ResNet, developed by Kaiming He et al. at Microsoft Research, won the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2015.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] resnet-variance-stabilization-x-over-L
+Replacing the residual mapping x + f(x) with x/L + f(x), where L is the total number of residual layers, stabilizes layer input variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] resnet-forward-signal-propagation
+In ResNet, forward signal propagation follows x_L = x_ell + sum of F(x_i) for i from ell to L-1, so any deep layer has a direct signal path from any shallower layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] densenet-every-layer-connects-to-subsequent
+DenseNet extends skip connections so that every layer connects to every subsequent layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] resnext-combines-inception-and-resnet
+ResNeXt combines Inception modules with ResNet.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] squeeze-excitation-adds-channel-attention
+Squeeze-and-Excitation Networks add channel attention (SE modules) to ResNet and won ILSVRC 2017.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Residual_neural_network.md
+- Source URL: https://en.wikipedia.org/wiki/Residual_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sift-scale-space-octaves
+SIFT builds a scale space by convolving the image with Gaussian filters at increasing scales grouped into octaves, with each octave doubling sigma and a fixed number of blurred images per octave producing the DoG pyramid.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Scale-invariant_feature_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sift-model-verification-least-squares-pseudoinverse
+SIFT model verification solves the affine transformation parameters via linear least squares using the pseudoinverse x_hat = (A^T A)^(-1) A^T b.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Scale-invariant_feature_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sift-outlier-rejection-half-hough-bin
+SIFT outlier rejection iteratively discards matches exceeding half the Hough bin error range, re-solves least squares, and rejects the hypothesis if fewer than 3 inliers remain.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Scale-invariant_feature_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sift-bayesian-acceptance-0-98
+SIFT accepts a final hypothesis if the Bayesian probability of correct interpretation exceeds 0.98, based on the expected false match rate given projected model size and feature density.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Scale-invariant_feature_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sift-hough-bin-sizes
+SIFT Hough transform voting uses bin sizes of 30 degrees orientation, factor-of-2 scale, and 0.25 times projected dimension for location.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Scale-invariant_feature_transform.md
+- Source URL: https://en.wikipedia.org/wiki/Scale-invariant_feature_transform
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ssl-autoassociative-autoencoder-reconstruction
+Autoassociative SSL trains a model to reconstruct its own input using an encoder that maps to latent space and a decoder that reconstructs, with loss equal to reconstruction error such as mean squared error.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Self-supervised_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Self-supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ssl-four-major-types
+Self-supervised learning is categorized into four major types: autoassociative (autoencoders), contrastive (e.g., CLIP, InfoNCE), non-contrastive (e.g., BYOL, DirectPred), and Joint-Embedding Predictive Architectures (JEPA).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Self-supervised_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Self-supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ssl-pseudo-labels-dual-purpose-concept-drift
+Pseudo-labels (model-generated labels assigned to unlabeled data based on the model's own predictions) serve a dual purpose: SSL pretraining and adapting to concept drift in dynamic environments.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Self-supervised_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Self-supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ssl-real-world-systems-wav2vec-bert-gpt3-byol
+Key real-world SSL systems include wav2vec (speech, Facebook), BERT (search queries, Google), GPT-3 (language, OpenAI), and BYOL (ImageNet, non-contrastive).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Self-supervised_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Self-supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] instance-segmentation-separates-individual-objects
+Instance segmentation identifies each distinct object instance separately (e.g., person 1 vs. person 2), unlike semantic segmentation which assigns class labels only.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Semantic_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Semantic_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] isolated-point-detection-laplacian-operator
+Isolated point detection uses the Laplacian operator (second derivative), classifying a point as isolated when |R(x,y)| >= T.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Semantic_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Semantic_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segmentation-motion-based-frame-differences
+Motion-based segmentation exploits frame-to-frame differences to isolate moving objects, while interactive segmentation can use robotic poking to induce motion.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Semantic_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Semantic_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] medical-imaging-dominant-segmentation-application
+Medical imaging (CT, MRI, volume rendering, and 3D reconstruction via marching cubes) is the dominant application domain of image segmentation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Semantic_segmentation.md
+- Source URL: https://en.wikipedia.org/wiki/Semantic_segmentation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] slam-map-representations-topological-occupancy-landmark
+SLAM uses three map representations: topological maps (connectivity/topology rather than geometry), occupancy grid maps (cells assumed statistically independent, marking occupied vs. free), and landmark-based maps (uniquely identifiable features such as Wi-Fi APs, visual features, or beacons).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Simultaneous_localization_and_mapping.md
+- Source URL: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fastslam-rao-blackwellized-particle-filter
+FastSLAM is a particle-filter-based method that uses a Rao-Blackwellized particle filter to factor the SLAM problem and replaced EKF SLAM as the preferred method.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Simultaneous_localization_and_mapping.md
+- Source URL: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] slam-with-datmo-handles-dynamic-objects
+SLAM with DATMO (Detection And Tracking of Moving Objects) extends SLAM to handle dynamic/moving objects such as vehicles and pedestrians alongside static map building.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Simultaneous_localization_and_mapping.md
+- Source URL: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] collaborative-slam-darpa-subterranean-2021
+Collaborative SLAM combines sensor data from multiple robots or users to jointly build maps, as demonstrated in the 2021 DARPA Subterranean Challenge.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Simultaneous_localization_and_mapping.md
+- Source URL: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bundle-adjustment-map-used-in-arcore
+Bundle adjustment / MAP estimation jointly optimizes poses and landmarks from image data, is used in commercial systems such as Google ARCore, and computes the most likely explanation rather than the full posterior.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Simultaneous_localization_and_mapping.md
+- Source URL: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stereopsis-two-mechanisms-binocular-and-motion
+Stereopsis is produced by two mechanisms: binocular depth vision (processing disparity between two eyes separated by ~6.5 cm) and motion vision (processing optical flow when the observer moves), with 'stereopsis' typically referring to the binocular mechanism.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Stereo_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Stereo_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stereo-correspondence-prefers-surfaces-minimal-depth
+The visual system solves the stereo correspondence problem by preferring surfaces (globality principle) and minimal-depth interpretations, which can cause binocular ghost images such as the double-nail illusion.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Stereo_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Stereo_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pulfrich-illusion-delay-elliptical-depth
+The Pulfrich illusion shows that a dark filter over one eye delays neural signals, causing a pendulum swinging in a flat arc to appear to move in an elliptical path in depth, demonstrating the temporal simultaneity requirement for stereopsis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Stereo_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Stereo_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stereopsis-conditions-horizontal-disparity-contrast-simultaneity-vergence
+Conditions for stereopsis include: (1) horizontal disparity, (2) matching edges of the same contrast polarity, (3) approximate temporal simultaneity, and (4) proper vergence alignment.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Stereo_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Stereo_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stereopsis-color-brightness-need-not-match-binocular-rivalry
+Color and brightness need not match between eyes for stereopsis; opposite colors do not mix but instead produce binocular rivalry alternation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Stereo_vision.md
+- Source URL: https://en.wikipedia.org/wiki/Stereo_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-domain-task-definitions
+In transfer learning, a domain consists of a feature space X and a marginal probability distribution P(X), while a task consists of a label space Y and a predictive function f: X → Y learned from training pairs {x_i, y_i}.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fine-tuning-most-common-tl-deep-networks
+Fine-tuning — initializing a model with pre-trained weights and then continuing training on target data — is the most common mechanism for applying transfer learning with deep neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] domain-adaptation-tl-task-stays-same
+Domain adaptation is a subfield of transfer learning focused specifically on bridging domain differences while the task stays the same.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] zero-shot-learning-no-target-training-data
+Zero-shot learning is an extreme case of transfer learning where no target-task training data is available and performance relies entirely on transferred knowledge.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] end-users-modify-fully-connected-layers
+End-users of pre-trained models can modify the structure of fully-connected layers to improve performance on their specific target task.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] emg-eeg-cross-domain-transfer-bidirectional
+Cross-domain transfer between EMG (muscle) and EEG (brain) signals is possible due to their similar physical natures and works bidirectionally.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-introduced-2015-ronneberger-fischer-brox-biomedical-segmentation
+U-Net was introduced in 2015 by Ronneberger, Fischer, and Brox for biomedical image segmentation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-example-256-rgb-to-k-256-segmentation-masks
+A U-Net example maps a 256x256 RGB image to k 256x256 segmentation masks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-expansive-path-many-feature-channels-propagate-context
+U-Net's expansive path has a large number of feature channels to propagate context information to higher-resolution layers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-bottleneck-connects-encoder-and-decoder
+U-Net's bottleneck is the deepest convolutional block connecting the encoder to the decoder.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] 3d-unet-volumetric-extension-sparse-annotation
+3D U-Net is a volumetric extension for 3D data such as medical volumes using sparse annotation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ternausnet-vgg11-encoder-unet-decoder-imagenet-pretraining
+TernausNet combines a U-Net decoder with a VGG11 encoder pre-trained on ImageNet.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-tensorflow-implementation-tf-unet-akeret-2017
+A TensorFlow U-Net implementation named tf_unet was released by Akeret in 2017.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unet-original-implementation-caffe-university-freiburg
+The original U-Net source implementation was Caffe-based from the University of Freiburg.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-U-Net.md
+- Source URL: https://en.wikipedia.org/wiki/U-Net
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vit-introduced-2020
+The Vision Transformer (ViT) was introduced in 2020.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vit-1d-learned-position-embeddings-adopted
+The original ViT paper adopted 1D learned position embeddings over 2D or relative alternatives.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vit-classification-head-linear-gelu-linear-softmax
+ViT's classification head is Linear -> GeLU -> Linear -> Softmax.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mae-75-percent-mask-optimal-imagenet-1k
+MAE's 75% mask ratio is optimal for ImageNet-1K in both fine-tuning and linear probing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] siammae-95-percent-mask-video-frame-prediction
+SiamMAE uses a ~95% mask ratio for video frame prediction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] timesformer-factorized-spatial-temporal-attention
+TimeSformer uses factorized attention for video by alternating spatial attention within one frame and temporal attention for the same patch across frames.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vit-vqgan-combines-vit-vqvae-gan-discriminators
+ViT-VQGAN combines ViT with VQVAE and GAN discriminators for image tokenization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vit-vqgan-basis-google-parti-autoregressive-generation
+ViT-VQGAN is the basis of Google Parti's autoregressive image generation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Vision_transformer.md
+- Source URL: https://en.wikipedia.org/wiki/Vision_transformer
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vo-overcomes-wheel-slip-non-smooth-surface-by-visual-distance
+Visual odometry overcomes wheel-based odometry limitations such as wheel slip on non-smooth surfaces by using visual information to estimate distance traveled.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vo-applicable-wheeled-legged-aerial-locomotion
+Visual odometry is applicable to any locomotion type, including wheeled, legged, and aerial systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] visiodometry-phase-correlation-planar-roto-translations
+Visiodometry uses phase correlation to estimate planar roto-translations between images without explicit feature extraction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] focus-of-expansion-indicates-camera-motion-direction
+The focus of expansion is the point in the optical flow field from which features diverge, indicating the direction of camera motion.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] egomotion-camera-3d-motion-rigid-environment
+Egomotion is the 3D motion of a camera within a rigid environment, closely related to visual odometry but emphasizing the camera's own motion.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vo-uses-pnp-2d-3d-pose-estimation
+Visual odometry uses Perspective-n-Point (PnP) to estimate camera pose from 2D-3D point correspondences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sfm-offline-global-vs-vo-sequential
+Structure from Motion is offline multi-view reconstruction that shares algorithmic foundations with visual odometry but processes all images globally rather than sequentially.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lucas-kanade-standard-optical-flow-visual-odometry
+The Lucas-Kanade method is the standard algorithm for constructing the optical flow field in visual odometry.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Visual_odometry.md
+- Source URL: https://en.wikipedia.org/wiki/Visual_odometry
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
